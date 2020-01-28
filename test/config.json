@@ -1,0 +1,10 @@
+{
+  "credentials": {
+    "email": "theo.theunissen@gmail.com",
+    "password": "111111"
+  },
+  "scheme":"http",
+  "testTeamId": 81,
+  "testRoleId": 9,
+  "testLocationId": 1
+}

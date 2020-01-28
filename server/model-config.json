@@ -1,0 +1,139 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "User": {
+    "dataSource": "securityDb",
+    "public": false
+  },
+  "AccessToken": {
+    "dataSource": "securityDb",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "securityDb",
+    "public": false
+  },
+  "Email": {
+    "dataSource": "emailDs"
+  },
+  "AppLabels": {
+    "dataSource": "socialcoinDb",
+    "public": true
+  },
+  "AppLanguages": {
+    "dataSource": "socialcoinDb",
+    "public": true
+  },
+  "AppTranslations": {
+    "dataSource": "socialcoinDb",
+    "public": true
+  },
+  "Actions": {
+    "dataSource": "socialcoinDb",
+    "public": true
+  },
+  "ActionsWithStatus": {
+    "dataSource": "socialcoinDb",
+    "public": true
+  },
+  "Audit": {
+    "dataSource": "socialcoinDb",
+    "public": true
+  },
+  "Cities": {
+    "dataSource": "socialcoinDb",
+    "public": true
+  },
+  "Debts": {
+    "dataSource": "socialcoinDb",
+    "public": true
+  },
+  "Locations": {
+    "dataSource": "socialcoinDb",
+    "public": true
+  },
+  "Participants": {
+    "dataSource": "socialcoinDb",
+    "public": true
+  },
+  "Privileges": {
+    "dataSource": "socialcoinDb",
+    "public": true
+  },
+  "Relations": {
+    "dataSource": "socialcoinDb",
+    "public": true
+  },
+  "RelationsWithRoles": {
+    "dataSource": "socialcoinDb",
+    "public": true
+  },
+  "RelationsWithTeams": {
+    "dataSource": "socialcoinDb",
+    "public": true
+  },
+  "Roles": {
+    "dataSource": "socialcoinDb",
+    "public": true
+  },
+  "RolesWithPrivileges": {
+    "dataSource": "socialcoinDb",
+    "public": true
+  },
+  "Skills": {
+    "dataSource": "socialcoinDb",
+    "public": true
+  },
+  "Status": {
+    "dataSource": "socialcoinDb",
+    "public": true
+  },
+  "Tasks": {
+    "dataSource": "socialcoinDb",
+    "public": true
+  },
+  "TasksWithSkills": {
+    "dataSource": "socialcoinDb",
+    "public": true
+  },
+  "TasksWithStatus": {
+    "dataSource": "socialcoinDb",
+    "public": true
+  },
+  "TasksWithActions": {
+    "dataSource": "socialcoinDb",
+    "public": true
+  },
+  "TasksWithTeams": {
+    "dataSource": "socialcoinDb",
+    "public": true
+  },
+  "Teams": {
+    "dataSource": "socialcoinDb",
+    "public": true
+  },
+  "Transactions": {
+    "dataSource": "socialcoinDb",
+    "public": true
+  },
+  "container": {
+    "dataSource": "storage",
+    "public": true
+  },
+  "files": {
+    "dataSource": "socialcoinDb",
+    "public": true
+  }
+}

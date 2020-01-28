@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<section>
+  <form action="/login" method="post">
+    <fieldset>
+      <legend>Login form</legend>
+      <div>
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" value=""/>
+      </div>
+      <div>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" value=""/>
+      </div>
+      <div>
+        <input type="submit" value="Login"/>
+      </div>
+    </fieldset>
+  </form>
+</section>
+
+<section>
+  <form action="/api/relations" method="post">
+    <input type="hidden" name="street.name" value="someStreet">
+    <fieldset>
+      <legend>Sign up form</legend>
+      <div>
+        <label for="locationsId">locationsId:</label>
+        <input type="text" id="locationsId" name="locationsId" value="1"/>
+      </div>
+      <div>
+        <label for="firstname">Firstname:</label>
+        <input type="text" id="firstname" name="firstname" value=""/>
+      </div>
+      <div>
+        <label for="lastname">Lastname:</label>
+        <input type="text" id="lastname" name="lastname" value=""/>
+      </div>
+      <div>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" value=""/>
+      </div>
+      <div>
+        <label for="email">Email:</label>
+        <input type="text" name="email" value=""/>
+      </div>
+      <div>
+        <label for="phonenumber">phonenumber:</label>
+        <input type="text" id="phonenumber" name="phonenumber" value="0612345678"/>
+      </div>
+      <div>
+        <label for="dateOfBirth">dateOfBirth:</label>
+        <input type="text" id="dateOfBirth" name="dateOfBirth" value="1970-01-01"/>
+      </div>
+      <div>
+        <label for="password1">Password:</label>
+        <input type="password" id="password1" name="password" value=""/>
+      </div>
+      <div>
+        <input type="submit" value="Sign up"/>
+      </div>
+    </fieldset>
+  </form>
+</section>
+
+<section>
+  <form action="/request-password-reset" method="post">
+    <fieldset>
+      <legend>Reset password form</legend>
+      <div>
+        <label for="email2">Email:</label>
+        <input type="text" id="email2" name="email" value=""/>
+      </div>
+      <div>
+        <input type="submit" value="Reset password"/>
+      </div>
+    </fieldset>
+  </form>
+</section>
+
+
+</body>
+</html>

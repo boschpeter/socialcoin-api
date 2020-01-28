@@ -1,0 +1,6 @@
+./test/**/*.test.js
+--recursive
+--check-leaks
+--ui tdd
+--reporter spec
+--colors

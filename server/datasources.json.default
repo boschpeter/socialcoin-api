@@ -1,0 +1,39 @@
+{
+  "socialcoinDb": {
+    "host": "MY-HOST",
+    "port": "MY-PORT",
+    "database": "MY-DATABASE",
+    "username": "MY-USERNAME",
+    "password": "MY-PASSWORD",
+    "name": "MY-NAME",
+    "connector": "mysql"
+  },
+  "securityDb": {
+    "host": "MY-HOST",
+    "port": "MY-PORT",
+    "database": "MY-DATABASE",
+    "username": "MY-USERNAME",
+    "password": "MY-PASSWORD",
+    "name": "MY-NAME",
+    "connector": "mysql"
+  },
+  "emailDs": {
+    "name": "emailDs",
+    "connector": "mail",
+    "transports": [
+      {
+        "type": "smtp",
+        "host": "smtp.gmail.com",
+        "secure": true,
+        "port": 465,
+        "tls": {
+          "rejectUnauthorized": false
+        },
+        "auth": {
+          "user": "MY-USERNAME",
+          "pass": "MY-PASSWORD"
+        }
+      }
+    ]
+  }
+}

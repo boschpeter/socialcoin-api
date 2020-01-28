@@ -1,0 +1,3 @@
+apps:
+  - script: npm run start
+    name: server
